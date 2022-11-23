@@ -9,13 +9,13 @@ let oneEuroIs = {
     "JPY": 127.9, // japan yen
     "USD": 1.2, // us dollar
     "GBP": 0.8, // british pound
-    // 1 EUR (Euro) = 1.2 USD (US Dollar)
+    // 1 EUR = 1.2 USD (US Dollar)
 }
 
 const fromEuroToDollar = function(valueInEuro){
-    // convertimos el valor a dolares
+    // convierte valor a dolares
     let valueInDollar = valueInEuro * 1.2;
-    // retornamos el valor
+    // retorna el valor
     return valueInDollar;
 }
 
